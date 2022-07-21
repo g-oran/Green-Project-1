@@ -1,0 +1,9 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <div style="height: 500px;">
+        <template if:true={wiredAccounts}>
+             <lightning-datatable key-field="id" data={wiredAccounts.data} columns={columns}>
+             </lightning-datatable>
+        </template>
+        </div>
+</template>
